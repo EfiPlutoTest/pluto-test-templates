@@ -1,34 +1,8 @@
 {
-  "name": "Create Jira project",
-  "description": "Create a Jira project",
-    "documentation": [
-    "projects/atlassian/jira/template/README.md"
-  ],
+  "name": "Too long process",
+  "description": "Script trying to execute a process that takes too long",
   "appType": "executable",
-  "inputs": [
-    {
-      "name": "Project name",
-      "description": "Jira project name",
-      "type": "text",
-      "field": "PROJECT_NAME"
-    },
-    {
-    "name": "Board type",
-    "description": "Board type",
-    "type": "list",
-    "field": "BOARD_TYPE",
-    "options": [
-      {
-        "text": "Create Kanban board",
-        "value": "kanban"
-      },
-      {
-        "text": "Create Scrum board",
-        "value": "scrum"
-      }
-    ]
-  }],
-  "executable": "jira.py",
+  "executables": "too_long.sh",
   "postActions": {
     "all": [],
     "GitHub": []

@@ -1,34 +1,8 @@
 {
-  "name": "Create Jira project",
-  "description": "Create a Jira project",
-    "documentation": [
-    "projects/atlassian/jira/template/README.md"
-  ],
+  "name": "Script with no output",
+  "description": "Working script that produces no output",
   "appType": "executable",
-  "inputs": [
-    {
-      "name": "Project name",
-      "description": "Jira project name",
-      "type": "text",
-      "field": "PROJECT_NAME"
-    },
-    {
-    "name": "Board type",
-    "description": "Board type",
-    "type": "list",
-    "field": "BOARD_TYPE",
-    "options": [
-      {
-        "text": "Create Kanban board",
-        "value": "kanban"
-      },
-      {
-        "text": "Create Scrum board",
-        "value": "scrum"
-      }
-    ]
-  }],
-  "executable": "jira.py",
+  "executable": "no_result.py",
   "postActions": {
     "all": [],
     "GitHub": []

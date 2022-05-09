@@ -1,9 +1,6 @@
 {
-  "name": "Create Jira project",
-  "description": "Create a Jira project",
-    "documentation": [
-    "projects/atlassian/jira/template/README.md"
-  ],
+  "name": "Run script",
+  "description": "Working script that takes no inputs",
   "appType": "executable",
   "executable": "run.sh",
   "postActions": {

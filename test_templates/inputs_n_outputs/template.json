@@ -28,7 +28,7 @@
       }
     ]
   }],
-  "executable": "jira.py",
+  "executable": "take_input_produce_output.py",
   "postActions": {
     "all": [],
     "GitHub": []
