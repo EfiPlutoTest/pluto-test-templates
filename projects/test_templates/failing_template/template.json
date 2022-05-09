@@ -1,0 +1,19 @@
+{
+  "name": "Failing exec script",
+  "description": "Executable template that fails",
+  "documentation": [],
+  "appType": "executable",
+  "inputs": [
+    {
+      "name": "Some input",
+      "description": "Some input for the template script",
+      "type": "text",
+      "field": "SOME_INPUT"
+    }
+  ],
+  "executable": "exec_with_errors.py",
+  "postActions": {
+    "all": [],
+    "GitHub": []
+  }
+}

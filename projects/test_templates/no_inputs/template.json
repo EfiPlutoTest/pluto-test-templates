@@ -1,0 +1,13 @@
+{
+  "name": "Create Jira project",
+  "description": "Create a Jira project",
+    "documentation": [
+    "projects/atlassian/jira/template/README.md"
+  ],
+  "appType": "executable",
+  "executable": "run.sh",
+  "postActions": {
+    "all": [],
+    "GitHub": []
+  }
+}
