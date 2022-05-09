@@ -20,11 +20,11 @@
     "options": [
       {
         "text": "Create Kanban board",
-        "value": "create-kanban"
+        "value": "kanban"
       },
       {
         "text": "Create Scrum board",
-        "value": "create-scrum"
+        "value": "scrum"
       }
     ]
   }],
