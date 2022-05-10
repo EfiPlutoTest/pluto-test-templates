@@ -17,5 +17,5 @@ if __name__ == '__main__':
         'url': 'http://jira.yourcompany.example.com'
     }}
 
-    with open('jira.py.result.json', 'w', encoding="utf8") as target_file:
+    with open(os.environ['RESULT_FILE'], 'w', encoding="utf8") as target_file:
         target_file.write(json.dumps(result))
