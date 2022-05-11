@@ -7,6 +7,7 @@
     {
       "name": "Some input",
       "description": "Some input for the template script",
+      "target": "executor",
       "type": "text",
       "field": "SOME_INPUT"
     }
