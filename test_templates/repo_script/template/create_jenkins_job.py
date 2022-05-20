@@ -12,10 +12,8 @@ if __name__ == '__main__':
     log.info("Hello World!")
     log.info("Environment: %s", os.environ)
 
-    result = {'result': {
-        'projectKey': os.environ['PROJECT_NAME'],
-        'url': f"http://jenkins.example.com/{os.environ['PROJECT_NAME']}"
-    }}
+    result = {'projectKey': os.environ['PROJECT_NAME'],
+              'url': f"http://jenkins.example.com/{os.environ['PROJECT_NAME']}"}
 
     with open(os.environ['RESULT_FILE'], 'w', encoding="utf8") as target_file:
         target_file.write(json.dumps(result))
