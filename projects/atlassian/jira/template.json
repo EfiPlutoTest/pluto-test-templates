@@ -10,12 +10,14 @@
       "name": "Project name",
       "description": "Jira project name",
       "type": "text",
+      "target": "executor",
       "field": "PROJECT_NAME"
     },
     {
     "name": "Board type",
     "description": "Board type",
     "type": "list",
+    "target": "executor",
     "field": "BOARD_TYPE",
     "options": [
       {

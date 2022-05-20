@@ -1,0 +1,20 @@
+{
+  "name": "Repository exec script",
+  "description": "Could for example integrate to the Jenkins and create a CI job to it for the repo",
+    "documentation": [],
+  "appType": "executable",
+  "inputs": [
+    {
+      "name": "Project name",
+      "description": "Jenkins project name",
+      "target": "executor",
+      "type": "text",
+      "field": "PROJECT_NAME"
+    }
+  ],
+  "executable": "create_jenkins_job.py",
+  "postActions": {
+    "all": [],
+    "GitHub": []
+  }
+}
