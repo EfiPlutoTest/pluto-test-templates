@@ -1,8 +1,17 @@
 {
-  "name": "Working exec script",
-  "description": "Working exec script that requires inputs and provides output",
+  "name": "Testing library support",
+  "description": "Script that calls a library functions",
   "documentation": [
     "projects/test_templates/inputs_n_outputs/README.md"
+  ],
+  "requires": [
+    {
+      "url": "https://github.com/EficodeEntDemo/pluto-templates.git",
+      "path": "applications/web_app/rest/python/template/utils"
+    },
+    {
+      "path": "executor_libraries/some_utility"
+    }
   ],
   "appType": "executable",
   "inputs": [
