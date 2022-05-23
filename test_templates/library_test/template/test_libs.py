@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+import some_utility
+
 import os
 import json
 import logging as log
@@ -12,10 +14,7 @@ if __name__ == '__main__':
     log.info("Hello World!")
     log.info("Environment: %s", os.environ)
 
-    result = {'result': {
-        'projectKey': 'TSTPRJ',
-        'url': 'http://jira.yourcompany.example.com'
-    }}
+    result = {'result': some_utility.tech_util.sum_n_multiply(2)}
 
     with open(os.environ['RESULT_FILE'], 'w', encoding="utf8") as target_file:
         target_file.write(json.dumps(result))
