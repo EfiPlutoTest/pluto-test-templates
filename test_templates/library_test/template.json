@@ -7,10 +7,10 @@
   "requires": [
     {
       "url": "https://github.com/EficodeEntDemo/pluto-templates.git",
-      "path": "applications/web_app/rest/python/template/utils"
+      "paths": ["applications/web_app/rest/python/template/utils"]
     },
     {
-      "path": "executor_libraries/some_utility"
+      "paths": ["executor_libraries/some_utility"]
     }
   ],
   "appType": "executable",
