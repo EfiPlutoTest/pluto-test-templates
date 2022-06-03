@@ -6,8 +6,8 @@
   ],
   "requires": [
     {
-      "url": "https://github.com/EficodeEntDemo/pluto-templates.git",
-      "paths": ["applications/web_app/rest/python/template/utils"]
+      "url": "https://github.com/EficodeEntDemo/python-rest-api-template.git",
+      "paths": ["app/util"]
     },
     {
       "paths": ["executor_libraries/some_utility"]
