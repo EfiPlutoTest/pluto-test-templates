@@ -1,0 +1,60 @@
+{
+  "name": "Template with boolean params",
+  "description": "Backend transforms boolean strings to boolean objects",
+    "documentation": [],
+  "appType": "executable",
+  "inputs": [
+    {
+      "name": "Toggle 1",
+      "description": "true or false?",
+      "target": "template",
+      "type": "text",
+      "field": "TOGGLE_1"
+    },
+    {
+      "name": "Toggle 2",
+      "description": "true or false?",
+      "target": "template",
+      "type": "text",
+      "field": "TOGGLE_2"
+    },
+    {
+      "name": "Selection 1",
+      "description": "Select true or false",
+      "type": "list",
+      "target": "template",
+      "field": "SELECTION_1",
+      "options": [
+        {
+          "text": "Use the thing",
+          "value": "true"
+        },
+        {
+          "text": "Don't use the thing",
+          "value": "false"
+        }
+      ]
+    },
+    {
+      "name": "Selection 2",
+      "description": "Select true or false",
+      "type": "list",
+      "target": "template",
+      "field": "SELECTION_2",
+      "options": [
+        {
+          "text": "Use the thing",
+          "value": "true"
+        },
+        {
+          "text": "Don't use the thing",
+          "value": "false"
+        }
+      ]
+    }
+  ],
+  "postActions": {
+    "all": [],
+    "GitHub": []
+  }
+}
