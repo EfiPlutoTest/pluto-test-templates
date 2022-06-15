@@ -2,7 +2,7 @@
   "name": "Script with no output",
   "description": "Working script that produces no output",
   "appType": "executable",
-  "executable": "no_result.py",
+  "executable": "template/no_result.py",
   "postActions": {
     "all": [],
     "GitHub": []

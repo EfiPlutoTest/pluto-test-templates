@@ -14,7 +14,7 @@
     }
   ],
   "appType": "executable",
-  "executable": "test_libs.py",
+  "executable": "template/test_libs.py",
   "postActions": {
     "all": [],
     "GitHub": []

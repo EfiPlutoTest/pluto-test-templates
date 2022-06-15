@@ -1,7 +1,7 @@
 {
   "name": "Template with boolean params",
   "description": "Backend transforms boolean strings to boolean objects",
-    "documentation": [],
+  "documentation": [],
   "appType": "executable",
   "inputs": [
     {
@@ -53,6 +53,7 @@
       ]
     }
   ],
+  "executable": "template/get_non_str_input.py",
   "postActions": {
     "all": [],
     "GitHub": []
