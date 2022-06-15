@@ -2,7 +2,7 @@
   "name": "Too long process",
   "description": "Script trying to execute a process that takes too long",
   "appType": "executable",
-  "executables": "template/too_long.sh",
+  "executable": "template/too_long.sh",
   "postActions": {
     "all": [],
     "GitHub": []
