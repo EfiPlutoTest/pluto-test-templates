@@ -1,0 +1,6 @@
+if __name__ == '__main__':
+   {% if ctx.current_template['parameters']['PROJECT_NAME'] is defined %}
+        {%- do add_return_value('project_name', {'value': ctx.current_template['parameters']['PROJECT_NAME'], 'display_text': 'Project Name'}) -%}
+   {% endif %}
+   {%- do add_return_value('board_type', {'value': ctx.current_template['parameters']['BOARD_TYPE'], 'display_text': 'Board Type'}) -%}
+    print("RUNNING Simple command.... {{applied_greeting.value}}")
