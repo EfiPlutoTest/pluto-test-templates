@@ -1,6 +1,5 @@
 if __name__ == '__main__':
-   {%- do add_return_value('testing_project_name', {'value': ctx.current_template['parameters']['PROJECT_NAME'], 'display_text': 'Project Name'}) -%}
-   {%- if ctx.current_template['parameters']['PROJECT_NAME'] is defined -%}
+   {%- if ctx.current_template['parameters']['PROJECT_NAME'] != None and if ctx.current_template['parameters']['PROJECT_NAME'] is defined -%}
         {%- do add_return_value('project_name', {'value': ctx.current_template['parameters']['PROJECT_NAME'], 'display_text': 'Project Name'}) -%}
    {%- endif -%}
    {%- do add_return_value('board_type', {'value': ctx.current_template['parameters']['BOARD_TYPE'], 'display_text': 'Board Type'}) -%}
