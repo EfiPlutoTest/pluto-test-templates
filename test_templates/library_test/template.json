@@ -6,7 +6,7 @@
   ],
   "requires": [
     {
-      "url": "https://github.com/EficodeEntDemo/python-rest-api-template.git",
+      "url": "https://github.com/EficodeRND/python-rest-api-template.git",
       "paths": ["app/util"]
     },
     {
@@ -14,7 +14,7 @@
     }
   ],
   "appType": "executable",
-  "executable": "template/test_libs.py",
+  "executable": "test_libs.py",
   "postActions": {
     "all": [],
     "GitHub": []
