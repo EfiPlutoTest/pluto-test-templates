@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "executable": "template/get_non_str_input.py",
+  "executable": "get_non_str_input.py",
   "postActions": {
     "all": [],
     "GitHub": []

@@ -2,7 +2,7 @@
   "name": "Run script",
   "description": "Working script that takes no inputs",
   "appType": "executable",
-  "executable": "template/run.sh",
+  "executable": "run.sh",
   "postActions": {
     "all": [],
     "GitHub": []

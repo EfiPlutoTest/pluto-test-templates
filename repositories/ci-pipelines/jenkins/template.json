@@ -12,7 +12,7 @@
       "field": "PROJECT_NAME"
     }
   ],
-  "executable": "template/create_jenkins_job.py",
+  "executable": "create_jenkins_job.py",
   "postActions": {
     "all": [],
     "GitHub": []

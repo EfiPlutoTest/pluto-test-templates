@@ -12,7 +12,7 @@
       "field": "SOME_INPUT"
     }
   ],
-  "executable": "template/exec_with_errors.py",
+  "executable": "exec_with_errors.py",
   "postActions": {
     "all": [],
     "GitHub": []
