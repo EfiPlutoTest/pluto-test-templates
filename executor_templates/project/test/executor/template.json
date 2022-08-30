@@ -1,0 +1,25 @@
+{
+  "name": "Test standalone executor script",
+  "description": "Test standalone executor script",
+    "documentation": [],
+  "appType": "executable",
+  "requires": [
+    {
+      "url": "https://github.com/EfiPlutoTest/executor_test_template.git"
+    }
+  ],
+  "inputs": [
+    {
+      "name": "Some input",
+      "description": "Give some input to the script",
+      "target": "executor",
+      "type": "text",
+      "field": "TEST_FIELD"
+    }
+  ],
+  "executable": "executor_script.py",
+  "postActions": {
+    "all": [],
+    "GitHub": []
+  }
+}
