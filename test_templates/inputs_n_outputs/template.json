@@ -29,6 +29,68 @@
           "value": "scrum"
         }
       ]
+    },
+    {
+      "name": "Toggle 1",
+      "description": "true or false?",
+      "target": "executor",
+      "type": "text",
+      "field": "TOGGLE_1"
+    },
+    {
+      "name": "Toggle 2",
+      "description": "true or false?",
+      "target": "executor",
+      "type": "text",
+      "field": "TOGGLE_2"
+    },
+    {
+      "name": "Selection 1",
+      "description": "Select true or false",
+      "type": "list",
+      "target": "executor",
+      "field": "SELECTION_1",
+      "options": [
+        {
+          "text": "Use the thing",
+          "value": "true"
+        },
+        {
+          "text": "Don't use the thing",
+          "value": "false"
+        }
+      ]
+    },
+    {
+      "name": "Selection 2",
+      "description": "Select true or false",
+      "type": "list",
+      "target": "executor",
+      "field": "SELECTION_2",
+      "options": [
+        {
+          "text": "Use the thing",
+          "value": "true"
+        },
+        {
+          "text": "Don't use the thing",
+          "value": "false"
+        }
+      ]
+    },
+    {
+      "name": "Value 1",
+      "description": "Give me a number",
+      "target": "executor",
+      "type": "number",
+      "field": "NUMBER_1"
+    },
+    {
+      "name": "Value 2",
+      "description": "Give me another number",
+      "target": "executor",
+      "type": "number",
+      "field": "NUMBER_2"
     }
   ],
   "executable": "take_input_produce_output.py",
