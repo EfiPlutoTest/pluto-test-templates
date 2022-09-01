@@ -17,8 +17,8 @@ if __name__ == '__main__':
         'url': 'http://jira.yourcompany.example.com',
         'bool_result': True,
         'false_result': False,
-        'number_1_result': os.environ['NUMBER_1'],
-        'number_2_result': os.environ['NUMBER_2']}
+        'number_1_result': int(os.environ['NUMBER_1']),
+        'number_2_result': int(os.environ['NUMBER_2'])}
     }
 
     with open(os.environ['RESULT_FILE'], 'w', encoding="utf8") as target_file:
