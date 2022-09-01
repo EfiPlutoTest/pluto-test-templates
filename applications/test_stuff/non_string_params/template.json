@@ -51,6 +51,20 @@
           "value": "false"
         }
       ]
+    },
+    {
+      "name": "Value 1",
+      "description": "Give me a number",
+      "target": "template",
+      "type": "number",
+      "field": "NUMBER_1"
+    },
+    {
+      "name": "Value 2",
+      "description": "Give me another number",
+      "target": "template",
+      "type": "number",
+      "field": "NUMBER_2"
     }
   ],
   "executable": "get_non_str_input.py",
