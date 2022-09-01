@@ -13,7 +13,7 @@ if __name__ == '__main__':
     log.info("Environment: %s", os.environ)
 
     result = {'bool_result': True,
-              'false_result': False
+              'false_result': False,
               'number_1_result': os.environ['NUMBER_1'],
               'number_2_result': os.environ['NUMBER_2']}
 
