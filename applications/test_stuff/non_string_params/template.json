@@ -1,6 +1,6 @@
 {
-  "name": "Template with boolean params",
-  "description": "Backend transforms boolean strings to boolean objects",
+  "name": "Template with non string params",
+  "description": "Backend transforms values to their actual types",
   "documentation": [],
   "appType": "executable",
   "inputs": [
